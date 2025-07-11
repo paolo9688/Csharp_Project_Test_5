@@ -1,6 +1,6 @@
-public enum Ruolo
+public static class Ruolo
 {
-    AMMINISTRATORE,
-    MANAGER,
-    UTENTE
+    public const string AMMINISTRATORE = "amministratore";
+    public const string MANAGER = "manager";
+    public const string UTENTE = "utente";
 }
